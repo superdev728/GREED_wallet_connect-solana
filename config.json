@@ -1,0 +1,36 @@
+{
+  "tokenStandard": "nft",
+  "number": 5,
+  "symbol": "GREED",
+  "sellerFeeBasisPoints": 100,
+  "isMutable": true,
+  "isSequential": true,
+  "creators": [
+    {
+      "address": "FqnADatXnhTnNYqaAQn4gcFSQhPpcHNvGcLdK9APVsFs",
+      "share": 100
+    }
+  ],
+  "uploadMethod": "bundlr",
+  "ruleSet": null,
+  "awsConfig": null,
+  "nftStorageAuthToken": null,
+  "shdwStorageAccount": null,
+  "pinataConfig": null,
+  "hiddenSettings": null,
+  "guards": {
+    "default": {
+      "mintLimit": {
+        "id": 1,
+        "limit": 3
+      },
+      "solPayment": {
+        "value": 0.5,
+        "destination": "GweFmYf31bDdSzJ7S8VyUPpgtpVgnoQX3tqS8VXLVWxc"
+      },
+      "startDate": {
+        "date": "2022-10-23T20:00:00Z"
+      }
+    }
+  }
+}
